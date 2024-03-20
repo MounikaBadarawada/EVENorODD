@@ -1,0 +1,81 @@
+body{
+    background: linear-gradient(to right,pink,white,lightpink);
+    background-repeat: no-repeat ;
+    background-size: cover;
+}
+.main{
+    background: linear-gradient(to right,pink,white,lightpink);
+    background-size: cover;
+}
+.header{
+    background: none;
+    margin: auto;
+    text-align: center;
+}
+#name{
+    display: flex;
+    justify-content: space-evenly;
+}
+#main{
+    width: 1200px;
+    height: 200px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#square{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 1px 5px 5px 5px pink;
+}
+.score{
+    display: flex;
+    margin-top: 20px;
+}
+#score{
+    display: flex;
+    margin-top: 35px;
+}
+h2{
+    color: blueviolet;
+}
+
+
+#result{
+    
+    color: black;
+    height: auto;
+    width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    background: none;
+}
+#btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    height :150px
+
+}
+input[type="submit"]{
+    height: 50px;
+    width: 100px;
+    background: none;
+    color: black;
+    font-size: larger;
+    border-radius: 5px;
+    box-shadow: 2px 2px pink;
+}
+
+
+
+
+
+
