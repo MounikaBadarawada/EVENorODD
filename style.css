@@ -61,7 +61,8 @@ h2{
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
-    height :150px
+    height :150px;
+    margin-bottom: 60px;
 
 }
 input[type="submit"]{
